@@ -79,7 +79,7 @@ The retrieved evidence is then passed to the multi-agent workflow along with the
 
 The LLM inference is performed locally through Ollama and Gemma 3 4B.
 
-How to Run
+##How to Run
 1. Install Ollama
 
 Install Ollama and download the required models:
@@ -121,7 +121,8 @@ python -m http.server 5500
 Open:
 
 http://localhost:5500
-Conclusion
+
+##Conclusion
 
 This project demonstrates how Local LLMs, RAG, and Multi-Agent AI can be combined to build an evidence-grounded medical assistance system.
 
