@@ -50,7 +50,7 @@ Pharmacist Safety Agent
 Consensus & Verification
   ↓
 Final Response / Report
-```
+
 
 The system uses multiple specialized agents instead of relying on a single LLM.
 
