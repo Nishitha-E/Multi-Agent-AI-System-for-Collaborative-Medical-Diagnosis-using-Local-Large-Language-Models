@@ -50,7 +50,10 @@ Pharmacist Safety Agent
 Consensus & Verification
   ↓
 Final Response / Report
+```
+---
 
+## System architecture
 
 The system uses multiple specialized agents instead of relying on a single LLM.
 
@@ -98,19 +101,23 @@ venv\Scripts\activate
 Linux/macOS:
 
 source venv/bin/activate
+
 3. Install Dependencies
 cd backend
 pip install -r requirements.txt
-4. Run RAG Ingestion
+
+5. Run RAG Ingestion
 
 Process the required medical reference PDFs using the ingestion script:
 
 python rag/ingestion/pdf_ingest.py
+
 5. Start Backend
 
 From the backend directory:
 
 uvicorn app.main:app --reload
+
 6. Start Frontend
 
 Open another terminal and run:
@@ -122,7 +129,9 @@ Open:
 
 http://localhost:5500
 
-##Conclusion
+---
+
+## Conclusion
 
 This project demonstrates how Local LLMs, RAG, and Multi-Agent AI can be combined to build an evidence-grounded medical assistance system.
 
