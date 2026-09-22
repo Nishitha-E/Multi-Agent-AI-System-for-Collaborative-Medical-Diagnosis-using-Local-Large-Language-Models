@@ -82,13 +82,14 @@ The retrieved evidence is then passed to the multi-agent workflow along with the
 
 The LLM inference is performed locally through Ollama and Gemma 3 4B.
 
-##How to Run
+## How to Run
 1. Install Ollama
 
 Install Ollama and download the required models:
 
 ollama pull gemma3:4b
 ollama pull nomic-embed-text
+
 2. Create Virtual Environment
 python -m venv venv
 
