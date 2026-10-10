@@ -152,7 +152,8 @@ Evaluation metrics:
 
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7d2c3ef9-0c29-4689-b05c-9824754d0251" />
 ---
-## Report
+## Report:
+
 [triage_report_2A5E3922.pdf](https://github.com/user-attachments/files/33285348/triage_report_2A5E3922.pdf)
 
 ---
