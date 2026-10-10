@@ -75,8 +75,9 @@ os.makedirs(REPORTS_DIR,exist_ok=True)
 
 RESULTS_CACHE={}
 
-FFMPEG_PATH = r""
-AudioSegment.converter=FFMPEG_PATH
+FFMPEG_PATH = os.getenv("FFMPEG_PATH", "").strip()
+if FFMPEG_PATH:
+    AudioSegment.converter = FFMPEG_PATH
 
 def _transcribe_with_whisper(webm_bytes:bytes)->str:
     tmp_in=os.path.join(

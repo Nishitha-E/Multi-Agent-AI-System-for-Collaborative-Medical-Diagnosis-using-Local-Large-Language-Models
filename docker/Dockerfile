@@ -1,10 +1,13 @@
-# Dockerfile
-FROM python:3.12-slim
+# Dockerfile for Aegis Medical Triage System
+FROM python:3.11-slim
 
 WORKDIR /workspace
 
+# Install system dependencies: build tools, git, and ffmpeg for Whisper / PyDub audio processing
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
+    ffmpeg \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 COPY backend/requirements.txt .
