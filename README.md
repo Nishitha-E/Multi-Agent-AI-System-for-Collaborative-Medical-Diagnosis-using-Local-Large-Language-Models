@@ -20,9 +20,17 @@ AEGIS is an offline-first, stateful multi-agent clinical decision-support and tr
 - **Privacy & Local Execution**: Fully on-premise execution using **Ollama** and local vector databases—no patient data is sent to external cloud APIs.
 - **Interactive Web UI & Reports**: Real-time triage updates streamed via **Server-Sent Events (SSE)** and automated PDF triage report generation using **fpdf2**.
 
+## 🖥️ User Interface
+
+| Dark Mode | Light Mode |
+| :---: | :---: |
+| ![Aegis Dark Mode UI](assets/aegis_dark_mode.png) | ![Aegis Light Mode UI](assets/aegis_light_mode.png) |
+
 ---
 
 ## 🏗️ System Architecture
+
+![LangGraph Workflow](workflow_graph.png)
 
 ```
 [Patient Speech / Text Input]
