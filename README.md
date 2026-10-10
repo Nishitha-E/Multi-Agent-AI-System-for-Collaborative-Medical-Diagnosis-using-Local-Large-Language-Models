@@ -138,9 +138,14 @@ Evaluation metrics:
 - **Deterministic Emergency Screening Accuracy**: 100% (23/23 cases)
 
 ---
-Screenshots:
+## Screenshots:
 <img width="1911" height="966" alt="image" src="https://github.com/user-attachments/assets/55cd56e6-910c-4d7a-890e-29b8ee7820d2" />
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7d2c3ef9-0c29-4689-b05c-9824754d0251" />
 
+---
+## Report
+[triage_report_2A5E3922.pdf](https://github.com/user-attachments/files/33285348/triage_report_2A5E3922.pdf)
 
+---
 ## ⚖️ Disclaimer
 *Aegis is an artificial intelligence-based clinical decision-support and triage prototype designed for research and educational purposes. It does NOT provide official medical diagnosis or treatment. Always consult a qualified physician for clinical decisions.*
