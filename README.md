@@ -139,8 +139,11 @@ Evaluation metrics:
 
 ---
 ## Screenshots:
-<img width="1911" height="966" alt="image" src="https://github.com/user-attachments/assets/55cd56e6-910c-4d7a-890e-29b8ee7820d2" />
+<img width="1917" height="963" alt="Screenshot 2026-10-10 210812" src="https://github.com/user-attachments/assets/b0d0867e-dff8-4ee7-bf94-9006e5c290ae" />
+<img width="1917" height="965" alt="Screenshot 2026-10-10 210703" src="https://github.com/user-attachments/assets/2ef5eadd-9094-474c-9768-2a6fa2b333ef" />
+
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7d2c3ef9-0c29-4689-b05c-9824754d0251" />
+<img width="1911" height="966" alt="image" src="https://github.com/user-attachments/assets/55cd56e6-910c-4d7a-890e-29b8ee7820d2" />
 
 ---
 ## Report
