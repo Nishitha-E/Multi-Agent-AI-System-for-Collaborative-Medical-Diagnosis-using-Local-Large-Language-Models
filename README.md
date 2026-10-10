@@ -28,35 +28,7 @@ AEGIS is an offline-first, stateful multi-agent clinical decision-support and tr
 
 ---
 
-## 🏗️ System Architecture & Workflow Diagram
-
-### 🔄 Multi-Agent LangGraph Workflow
-
-```mermaid
-flowchart TD
-    Start([Start: Patient Complaint]) --> Evidence[1. Gather Evidence & ChromaDB Vector RAG]
-    Evidence --> Clinical[2. Clinical Reasoning Engine]
-    
-    subgraph Specialists [Clinical Specialist Nodes]
-        Clinical --> GP[General Physician Agent]
-        Clinical --> Cardio[Cardiologist]
-        Clinical --> Pulm[Pulmonologist]
-        Clinical --> ENT[ENT Specialist]
-        Clinical --> Ortho[Orthopedic Specialist]
-    end
-    
-    Specialists --> Emergency{3. Emergency Fast-Path Check}
-    Emergency -->|Emergency Flagged| Alert[Emergency Alert Trigger]
-    Emergency --> Pharmacist[4. Pharmacist Safety Agent / OTC Filter]
-    Pharmacist --> Consensus[5. Consensus Coordinator & Agreement Scoring]
-    Consensus --> Finalize[6. Confidence Scoring & Final Risk Level]
-    Alert --> Finalize
-    Finalize --> End([Output: SSE Stream & Triage PDF Report])
-```
-
-<div align="center">
-  <img src="workflow_graph.png" alt="Aegis Multi-Agent Workflow Diagram" width="700"/>
-</div>
+## 🏗️ System Architecture
 
 ```
 [Patient Speech / Text Input]
@@ -173,12 +145,12 @@ Evaluation metrics:
 
 ---
 ## Screenshots:
+<img width="1917" height="963" alt="Screenshot 2026-10-10 210812" src="https://github.com/user-attachments/assets/b0d0867e-dff8-4ee7-bf94-9006e5c290ae" />
+<img width="1917" height="965" alt="Screenshot 2026-10-10 210703" src="https://github.com/user-attachments/assets/2ef5eadd-9094-474c-9768-2a6fa2b333ef" />
 
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7d2c3ef9-0c29-4689-b05c-9824754d0251" />
 ---
-
-## Report:
-
+## Report
 [triage_report_2A5E3922.pdf](https://github.com/user-attachments/files/33285348/triage_report_2A5E3922.pdf)
 
 ---
