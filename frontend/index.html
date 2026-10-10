@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEGIS - AI Medical Triage Decision-Support</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');</script>
+</head>
+<body>
+    <div id="toast-notification-banner" class="toast-banner" style="display: none;">
+        <span id="toast-message">Triage Report is ready!</span>
+        <div class="toast-actions">
+            <button id="toast-view-btn" class="btn btn-primary btn-sm">View Report</button>
+            <button id="toast-close-btn" class="btn btn-secondary btn-sm">Dismiss</button>
+        </div>
+    </div>
+
+    <div class="app-layout">
+        <aside class="app-sidebar">
+            <button id="new-case-btn" class="btn btn-primary btn-new-case">
+                New Triage Session
+            </button>
+            <div class="sidebar-section-title">Case History</div>
+            <div class="sidebar-list" id="sidebar-cases">
+                <div class="sidebar-empty">No saved sessions</div>
+            </div>
+        </aside>
+
+        <div class="app-container">
+            <header class="app-header">
+                <div class="header-logo">
+                    <button id="sidebar-toggle-btn" class="icon-btn" title="Toggle Case History Sidebar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    </button>
+                    <div class="logo-text">
+                        <h1>AEGIS</h1>
+                        <p>Clinical Decision-Support Triage</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button id="report-toggle-btn" class="icon-btn report-toggle-btn" title="Toggle Triage Report Panel">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </button>
+                    <button id="theme-toggle-btn" class="icon-btn" title="Toggle Theme">
+                        <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                        <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    </button>
+                </div>
+            </header>
+
+            <main class="app-grid">
+            <section class="card intake-panel">
+                <div class="card-header">
+                    <h2>Patient Intake Interview</h2>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="badge badge-info" id="interview-step-badge">Intake</span>
+                    </div>
+                </div>
+                
+                <div class="chat-viewport" id="chat-container">
+                    <div class="message bot-message">
+                        <p>Welcome to AEGIS. I'm your virtual assistant. Please describe your symptoms</p>
+                    </div>
+                    <div class="message bot-message typing-indicator" id="chat-typing-indicator" style="display: none;">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <div class="voice-indicator" id="voice-indicator">Listening...</div>
+                    <textarea id="user-input" placeholder="Type your symptoms here or click the microphone to speak..."></textarea>
+                    
+                    <div class="input-buttons">
+                        <button id="voice-btn" class="icon-btn voice-btn" title="Voice Input (Microphone)">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                        </button>
+                        
+                        <button id="send-btn" class="btn btn-primary send-btn" title="Send Message">
+                            <span>Send</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="panel-resize-handle" id="panel-resize-handle" title="Drag to resize"></div>
+
+            <section class="card report-panel">
+                <div class="card-header">
+                    <h2>Triage Decision-Support Report</h2>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="badge" id="risk-badge">Awaiting Intake</span>
+                        <button id="close-report-btn" class="icon-btn" title="Toggle Diagnostics Panel">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="stream-progress-container" id="progress-container" style="display: none;">
+                    <div class="progress-info">
+                        <span id="progress-text">Executing Multi-Agent System...</span>
+                        <span id="progress-percent">0%</span>
+                    </div>
+                    <div class="progress-bar-track">
+                        <div class="progress-bar-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="report-viewport" id="report-viewport">
+                    <div class="empty-state" id="empty-state">
+                        <p class="empty-text">Complete the intake interview on the left to generate the clinical decision-support report.</p>
+                    </div>
+
+                    <div class="agent-grid-container" id="agent-grid-container" style="display: none;">
+                        <h3 class="tracking-title">Triage Pipeline Progress</h3>
+                        <div class="agent-grid">
+                            <div class="agent-node" id="node-agent-1">
+                                <div class="node-status-dot"></div>
+                                <div class="node-label">Grounding &amp; routing</div>
+                            </div>
+                            <div class="agent-node" id="node-agent-2">
+                                <div class="node-status-dot"></div>
+                                <div class="node-label">Clinical &amp; pharmacist review</div>
+                            </div>
+                            <div class="agent-node" id="node-agent-3">
+                                <div class="node-status-dot"></div>
+                                <div class="node-label">Consensus &amp; verification</div>
+                            </div>
+                            <div class="agent-node" id="node-agent-4">
+                                <div class="node-status-dot"></div>
+                                <div class="node-label">Finalizing report</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skeleton-loader-container" id="skeleton-loader-container" style="display: none;">
+                        <div class="summary-cards-grid" style="margin-bottom: 20px;">
+                            <div class="metric-card skeleton-card">
+                                <div class="skeleton-shimmer skeleton-title" style="width: 50%; height: 12px; margin-bottom: 8px;"></div>
+                                <div class="skeleton-shimmer skeleton-value" style="width: 70%; height: 24px;"></div>
+                            </div>
+                            <div class="metric-card skeleton-card">
+                                <div class="skeleton-shimmer skeleton-title" style="width: 50%; height: 12px; margin-bottom: 8px;"></div>
+                                <div class="skeleton-shimmer skeleton-value" style="width: 40%; height: 24px;"></div>
+                            </div>
+                        </div>
+                        <div class="report-section skeleton-section" style="margin-bottom: 20px;">
+                            <div class="skeleton-shimmer skeleton-title" style="width: 40%; height: 14px; margin-bottom: 12px;"></div>
+                            <div class="skeleton-shimmer skeleton-box" style="height: 80px; border-radius: 12px;"></div>
+                        </div>
+                        <div class="report-section skeleton-section" style="margin-bottom: 20px;">
+                            <div class="skeleton-shimmer skeleton-title" style="width: 30%; height: 14px; margin-bottom: 12px;"></div>
+                            <div class="skeleton-shimmer skeleton-box" style="height: 60px; border-radius: 12px;"></div>
+                        </div>
+                        <div class="report-section skeleton-section">
+                            <div class="skeleton-shimmer skeleton-title" style="width: 50%; height: 14px; margin-bottom: 12px;"></div>
+                            <div class="skeleton-shimmer skeleton-box" style="height: 100px; border-radius: 12px;"></div>
+                        </div>
+                    </div>
+
+                <div class="emergency-alert-box" id="emergency-alert-box" style="display: none;">
+                    <div class="emergency-alert-icon">🚨</div>
+                    <div class="emergency-alert-title">EMERGENCY DETECTED</div>
+                    <div class="emergency-alert-message" id="emergency-alert-message"></div>
+                    <div class="emergency-alert-subtext">Call your local emergency number immediately, or go to the nearest emergency department. Do not wait for further review.</div>
+                    <div class="emergency-alert-caseid">Reference ID: <span id="emergency-alert-caseid"></span></div>
+                </div>
+
+                    <div class="report-content" id="report-content" style="display: none;">
+                        <div class="summary-cards-grid">
+                            <div class="metric-card">
+                                <h3>Triage Confidence</h3>
+                                <p class="metric-value" id="val-confidence">0.0%</p>
+                            </div>
+                            <div class="metric-card">
+                                <h3>Reference ID</h3>
+                                <p class="metric-value" id="val-case-id">N/A</p>
+                            </div>
+                        </div>
+
+                        <div class="report-section">
+                            <h3>Specialist Triage Assessments</h3>
+                            <div class="specialist-responses" id="specialist-responses"></div>
+                        </div>
+
+                        <div class="report-section">
+                            <h3>Consensus Synthesis</h3>
+                            <div class="content-box" id="val-consensus"></div>
+                        </div>
+
+                        <div class="report-section">
+                            <h3>RAG Grounding Evidence Citations</h3>
+                            <div class="citations-list" id="val-citations"></div>
+                        </div>
+
+                        <div class="report-section">
+                            <h3>Plain-Language Explanation</h3>
+                            <div class="explain-box">
+                                <div id="val-explainability"></div>
+                                <button id="read-aloud-btn" class="btn btn-secondary btn-sm" style="margin-top: 10px; display: inline-flex; align-items: center; gap: 6px;" title="Read Explanation Aloud">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                                    Read Aloud
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- <div class="report-section">
+                            <h3>Remedies &amp; Care Guidance</h3>
+                            <div class="content-box remedies-box">
+                                <div id="medications-block">
+                                    <div class="remedies-subtitle">Recommended OTC Medications</div>
+                                    <div class="table-responsive">
+                                        <table class="remedies-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Remedy/Tablet</th>
+                                                    <th>Dosage</th>
+                                                    <th>Frequency</th>
+                                                    <th>Purpose</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="val-tablets-body"></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                
+                                <div class="remedies-subtitle" style="margin-top: 15px;">Lifestyle &amp; Clinical Precautions</div>
+                                <ul class="precautions-list" id="val-precautions-list"></ul>
+                            </div>
+                        </div> -->
+
+                        <div class="report-section" id="pharmacist-section">
+                            <h3>Pharmacy &amp; Safety Review</h3>
+                            <div class="content-box warning-box" id="val-pharmacist"></div>
+                        </div>
+
+                        <div class="action-toolbar">
+                            <a id="download-pdf-btn" href="#" class="btn btn-primary" download>
+                                Download Report PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="disclaimer-banner">
+            <p><strong>Disclaimer:</strong> Aegis is an AI-powered clinical decision-support tool. It is NOT a diagnostic tool and does not replace medical consultation. Always seek professional advice.</p>
+        </div>
+    </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>

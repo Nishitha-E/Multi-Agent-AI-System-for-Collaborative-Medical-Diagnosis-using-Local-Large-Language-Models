@@ -1,0 +1,500 @@
+[
+  {
+    "id": "ent_001",
+    "category": "ENT",
+    "title": "Acute Otitis Media",
+    "text": "Subject: Acute Otitis Media. Clinical Presentation and Assessment: Patient complains of severe right ear pain, fever, and mild hearing loss. Otoscopic exam shows bulging, erythematous tympanic membrane with loss of landmarks. Diagnosed with acute otitis media. Prescription: Amoxicillin 875mg twice daily."
+  },
+  {
+    "id": "ent_002",
+    "category": "ENT",
+    "title": "Streptococcal Pharyngitis",
+    "text": "Subject: Streptococcal Pharyngitis. Clinical Presentation and Assessment: A 14-year-old presenting with acute onset of sore throat, fever of 102F, and painful swallowing. Exam reveals tonsillar hypertrophy with exudates and anterior cervical lymphadenopathy. Rapid strep test positive. Prescription: Penicillin V."
+  },
+  {
+    "id": "ent_003",
+    "category": "ENT",
+    "title": "Chronic Sinusitis",
+    "text": "Subject: Chronic Sinusitis. Clinical Presentation and Assessment: Adult male with a 3-month history of facial pressure, nasal congestion, and purulent postnasal drip. CT scan shows mucosal thickening of maxillary and ethmoid sinuses. Recommended saline rinses and fluticasone nasal spray."
+  },
+  {
+    "id": "ent_004",
+    "category": "ENT",
+    "title": "Acute Tonsillitis",
+    "text": "Subject: Acute Tonsillitis. Clinical Presentation and Assessment: Patient presents with high fever, sore throat, difficulty swallowing, and muffled voice. Examination shows enlarged erythematous tonsils with bilateral exudates. Throat culture obtained. Advised rest, hydration, and acetaminophen."
+  },
+  {
+    "id": "ent_005",
+    "category": "ENT",
+    "title": "Cerumen Impaction",
+    "text": "Subject: Cerumen Impaction. Clinical Presentation and Assessment: Elderly patient presenting with progressive bilateral hearing loss and sensation of ear fullness. Otoscopy reveals complete occlusion of both external auditory canals with dark, hard cerumen. Successfully cleared with irrigation."
+  },
+  {
+    "id": "ent_006",
+    "category": "ENT",
+    "title": "Allergic Fungal Sinusitis",
+    "text": "Subject: Allergic Fungal Sinusitis. Clinical Presentation and Assessment: Patient with chronic sinus congestion, anosmia, and nasal polyposis. Allergic mucin containing eosinophils and fungal hyphae retrieved during sinus debridement. Treatment: surgical ventilation and oral steroids."
+  },
+  {
+    "id": "ent_007",
+    "category": "ENT",
+    "title": "Vocal Cord Nodule",
+    "text": "Subject: Vocal Cord Nodule. Clinical Presentation and Assessment: Professional singer presenting with persistent hoarseness and vocal fatigue for 6 months. Laryngoscopy reveals bilateral symmetric vocal cord nodules at the junction of anterior and middle thirds. Referred for speech therapy."
+  },
+  {
+    "id": "ent_008",
+    "category": "ENT",
+    "title": "Vestibular Neuritis",
+    "text": "Subject: Vestibular Neuritis. Clinical Presentation and Assessment: Sudden onset of severe vertigo, nausea, vomiting, and gait instability. Horizontal-torsional nystagmus beats towards the unaffected ear. Negative head-impulse test. Treated with methylprednisolone taper and meclizine."
+  },
+  {
+    "id": "ent_009",
+    "category": "ENT",
+    "title": "Laryngopharyngeal Reflux",
+    "text": "Subject: Laryngopharyngeal Reflux. Clinical Presentation and Assessment: Patient reports chronic throat clearing, persistent dry cough, globus sensation, and hoarseness. Laryngoscopy shows interarytenoid erythema and vocal fold edema. Initiated Omeprazole 20mg twice daily."
+  },
+  {
+    "id": "ent_010",
+    "category": "ENT",
+    "title": "Acute Epiglottitis",
+    "text": "Subject: Acute Epiglottitis. Clinical Presentation and Assessment: Pediatric patient presenting with sudden high fever, sore throat, drooling, and stridor. Sitting in tripod position. Muffled voice. Immediate airway management initiated. IV Ceftriaxone and dexamethasone administered."
+  },
+  {
+    "id": "ent_011",
+    "category": "ENT",
+    "title": "Peritonsillar Abscess",
+    "text": "Subject: Peritonsillar Abscess. Clinical Presentation and Assessment: Severe unilateral sore throat, fever, trismus, and deviation of the uvula to the opposite side. Fluctuant swelling of the soft palate. Needle aspiration performed, yielding 4cc of purulent fluid. Treated with IV antibiotics."
+  },
+  {
+    "id": "ent_012",
+    "category": "ENT",
+    "title": "Nasal Septal Deviation",
+    "text": "Subject: Nasal Septal Deviation. Clinical Presentation and Assessment: Patient complains of chronic unilateral nasal obstruction and recurrent epistaxis. Examination reveals severe cartilaginous deviation to the left, occluding 80% of the airway. Scheduled for septoplasty."
+  },
+  {
+    "id": "ent_013",
+    "category": "ENT",
+    "title": "Conductive Hearing Loss",
+    "text": "Subject: Conductive Hearing Loss. Clinical Presentation and Assessment: Young adult with progressive hearing loss in left ear. Weber lateralizes to left, Rinne negative on left. Consistent with otosclerosis. Discussed stapedectomy vs. hearing aid."
+  },
+  {
+    "id": "ent_014",
+    "category": "ENT",
+    "title": "Temporomandibular Joint Disorder",
+    "text": "Subject: Temporomandibular Joint Disorder. Clinical Presentation and Assessment: Patient complains of jaw pain, clicking sounds, and headache, particularly in the mornings. Tender masseter muscles. Managed with night guard, NSAIDs, and soft food diet."
+  },
+  {
+    "id": "ent_015",
+    "category": "ENT",
+    "title": "Salivary Gland Sialolithiasis",
+    "text": "Subject: Salivary Gland Sialolithiasis. Clinical Presentation and Assessment: Swelling and severe pain in the submandibular region, worsening during meals. Palpable stone in Wharton's duct. Stone massaged out of duct orifice. Advised hydration and sialogogues."
+  },
+  {
+    "id": "ent_016",
+    "category": "ENT",
+    "title": "Acute Laryngitis",
+    "text": "Subject: Acute Laryngitis. Clinical Presentation and Assessment: Loss of voice and tickling throat sensation following a viral upper respiratory infection. Vocal cords erythematous and edematous. Recommended voice rest, hydration, and humidification."
+  },
+  {
+    "id": "ent_017",
+    "category": "ENT",
+    "title": "Nasal Polyps",
+    "text": "Subject: Nasal Polyps. Clinical Presentation and Assessment: Bilateral nasal congestion, hyposmia, and mouth breathing. Examination reveals pale, translucent masses in nasal cavities. Managed with fluticasone spray and oral prednisone taper."
+  },
+  {
+    "id": "ent_018",
+    "category": "ENT",
+    "title": "Eustachian Tube Dysfunction",
+    "text": "Subject: Eustachian Tube Dysfunction. Clinical Presentation and Assessment: Patient reports popping/clicking sounds in ears, pressure changes, and autophony after air travel. Retracted tympanic membrane. Managed with decongestants and Valsalva maneuver."
+  },
+  {
+    "id": "ent_019",
+    "category": "ENT",
+    "title": "Labyrinthitis",
+    "text": "Subject: Labyrinthitis. Clinical Presentation and Assessment: Patient presents with acute onset of vertigo, tinnitus, and sensorineural hearing loss in the left ear following a viral illness. Treated with prednisone, valacyclovir, and vestibular rehabilitation."
+  },
+  {
+    "id": "cardio_001",
+    "category": "Cardiology",
+    "title": "Angina Pectoris Case Study 1",
+    "text": "Patient is a 45-year-old male presenting with Chest pressure radiating to left arm, precipitated by exertion and relieved by rest or nitroglycerin. ECG shows transient ST depressions.. Blood pressure: 120/80 mmHg. Heart rate: 70 bpm. Diagnostic Workup confirms Angina Pectoris."
+  },
+  {
+    "id": "cardio_002",
+    "category": "Cardiology",
+    "title": "Myocardial Infarction Case Study 2",
+    "text": "Patient is a 48-year-old female presenting with Crushing substernal chest pain radiating to neck and jaw, accompanied by diaphoresis and dyspnea. Troponin levels elevated. ST elevation on ECG.. Blood pressure: 127/84 mmHg. Heart rate: 75 bpm. Diagnostic Workup confirms Myocardial Infarction."
+  },
+  {
+    "id": "cardio_003",
+    "category": "Cardiology",
+    "title": "Atrial Fibrillation Case Study 3",
+    "text": "Patient is a 51-year-old male presenting with Palpitations, lightheadedness, and irregular pulse. ECG confirms irregularly irregular rhythm without P waves. Anticoagulation started.. Blood pressure: 134/88 mmHg. Heart rate: 80 bpm. Diagnostic Workup confirms Atrial Fibrillation."
+  },
+  {
+    "id": "cardio_004",
+    "category": "Cardiology",
+    "title": "Congestive Heart Failure Case Study 4",
+    "text": "Patient is a 54-year-old female presenting with Bilateral pitting pedal edema, orthopnea, paroxysmal nocturnal dyspnea, and jugular venous distention. Echocardiogram shows EF of 35%.. Blood pressure: 141/92 mmHg. Heart rate: 85 bpm. Diagnostic Workup confirms Congestive Heart Failure."
+  },
+  {
+    "id": "cardio_005",
+    "category": "Cardiology",
+    "title": "Essential Hypertension Case Study 5",
+    "text": "Patient is a 57-year-old male presenting with Asymptomatic elevation of blood pressure measured at 165/95 mmHg on three separate occasions. Advised lifestyle modifications and Lisinopril.. Blood pressure: 148/96 mmHg. Heart rate: 90 bpm. Diagnostic Workup confirms Essential Hypertension."
+  },
+  {
+    "id": "cardio_006",
+    "category": "Cardiology",
+    "title": "Aortic Stenosis Case Study 6",
+    "text": "Patient is a 60-year-old female presenting with Systolic crescendo-decrescendo murmur at the right upper sternal border. Symptom triad: dyspnea, angina, syncope. Valve replacement indicated.. Blood pressure: 155/100 mmHg. Heart rate: 95 bpm. Diagnostic Workup confirms Aortic Stenosis."
+  },
+  {
+    "id": "cardio_007",
+    "category": "Cardiology",
+    "title": "Mitral Valve Prolapse Case Study 7",
+    "text": "Patient is a 63-year-old male presenting with Midsystolic click followed by a late systolic murmur. Patient complains of atypical chest pain and palpitations. Reassured and monitored.. Blood pressure: 162/104 mmHg. Heart rate: 100 bpm. Diagnostic Workup confirms Mitral Valve Prolapse."
+  },
+  {
+    "id": "cardio_008",
+    "category": "Cardiology",
+    "title": "Pericarditis Case Study 8",
+    "text": "Patient is a 66-year-old female presenting with Sharp, pleuritic chest pain that improves upon sitting forward. Rub heard on auscultation. ECG shows diffuse concave ST elevations.. Blood pressure: 169/83 mmHg. Heart rate: 105 bpm. Diagnostic Workup confirms Pericarditis."
+  },
+  {
+    "id": "cardio_009",
+    "category": "Cardiology",
+    "title": "Infective Endocarditis Case Study 9",
+    "text": "Patient is a 69-year-old male presenting with Fever of unknown origin, new murmur, splenomegaly, Roth spots, Janeway lesions, and positive blood cultures. Long-term IV antibiotics started.. Blood pressure: 126/87 mmHg. Heart rate: 70 bpm. Diagnostic Workup confirms Infective Endocarditis."
+  },
+  {
+    "id": "cardio_010",
+    "category": "Cardiology",
+    "title": "Dilated Cardiomyopathy Case Study 10",
+    "text": "Patient is a 72-year-old female presenting with Progressive dyspnea on exertion, fatigue, and orthopnea. Chest X-ray shows cardiomegaly. Beta-blockers and ACE inhibitors prescribed.. Blood pressure: 133/91 mmHg. Heart rate: 75 bpm. Diagnostic Workup confirms Dilated Cardiomyopathy."
+  },
+  {
+    "id": "cardio_011",
+    "category": "Cardiology",
+    "title": "Angina Pectoris Case Study 11",
+    "text": "Patient is a 75-year-old male presenting with Chest pressure radiating to left arm, precipitated by exertion and relieved by rest or nitroglycerin. ECG shows transient ST depressions.. Blood pressure: 140/95 mmHg. Heart rate: 80 bpm. Diagnostic Workup confirms Angina Pectoris."
+  },
+  {
+    "id": "cardio_012",
+    "category": "Cardiology",
+    "title": "Myocardial Infarction Case Study 12",
+    "text": "Patient is a 78-year-old female presenting with Crushing substernal chest pain radiating to neck and jaw, accompanied by diaphoresis and dyspnea. Troponin levels elevated. ST elevation on ECG.. Blood pressure: 147/99 mmHg. Heart rate: 85 bpm. Diagnostic Workup confirms Myocardial Infarction."
+  },
+  {
+    "id": "cardio_013",
+    "category": "Cardiology",
+    "title": "Atrial Fibrillation Case Study 13",
+    "text": "Patient is a 81-year-old male presenting with Palpitations, lightheadedness, and irregular pulse. ECG confirms irregularly irregular rhythm without P waves. Anticoagulation started.. Blood pressure: 154/103 mmHg. Heart rate: 90 bpm. Diagnostic Workup confirms Atrial Fibrillation."
+  },
+  {
+    "id": "cardio_014",
+    "category": "Cardiology",
+    "title": "Congestive Heart Failure Case Study 14",
+    "text": "Patient is a 84-year-old female presenting with Bilateral pitting pedal edema, orthopnea, paroxysmal nocturnal dyspnea, and jugular venous distention. Echocardiogram shows EF of 35%.. Blood pressure: 161/82 mmHg. Heart rate: 95 bpm. Diagnostic Workup confirms Congestive Heart Failure."
+  },
+  {
+    "id": "cardio_015",
+    "category": "Cardiology",
+    "title": "Essential Hypertension Case Study 15",
+    "text": "Patient is a 47-year-old male presenting with Asymptomatic elevation of blood pressure measured at 165/95 mmHg on three separate occasions. Advised lifestyle modifications and Lisinopril.. Blood pressure: 168/86 mmHg. Heart rate: 100 bpm. Diagnostic Workup confirms Essential Hypertension."
+  },
+  {
+    "id": "cardio_016",
+    "category": "Cardiology",
+    "title": "Aortic Stenosis Case Study 16",
+    "text": "Patient is a 50-year-old female presenting with Systolic crescendo-decrescendo murmur at the right upper sternal border. Symptom triad: dyspnea, angina, syncope. Valve replacement indicated.. Blood pressure: 125/90 mmHg. Heart rate: 105 bpm. Diagnostic Workup confirms Aortic Stenosis."
+  },
+  {
+    "id": "cardio_017",
+    "category": "Cardiology",
+    "title": "Mitral Valve Prolapse Case Study 17",
+    "text": "Patient is a 53-year-old male presenting with Midsystolic click followed by a late systolic murmur. Patient complains of atypical chest pain and palpitations. Reassured and monitored.. Blood pressure: 132/94 mmHg. Heart rate: 70 bpm. Diagnostic Workup confirms Mitral Valve Prolapse."
+  },
+  {
+    "id": "cardio_018",
+    "category": "Cardiology",
+    "title": "Pericarditis Case Study 18",
+    "text": "Patient is a 56-year-old female presenting with Sharp, pleuritic chest pain that improves upon sitting forward. Rub heard on auscultation. ECG shows diffuse concave ST elevations.. Blood pressure: 139/98 mmHg. Heart rate: 75 bpm. Diagnostic Workup confirms Pericarditis."
+  },
+  {
+    "id": "cardio_019",
+    "category": "Cardiology",
+    "title": "Infective Endocarditis Case Study 19",
+    "text": "Patient is a 59-year-old male presenting with Fever of unknown origin, new murmur, splenomegaly, Roth spots, Janeway lesions, and positive blood cultures. Long-term IV antibiotics started.. Blood pressure: 146/102 mmHg. Heart rate: 80 bpm. Diagnostic Workup confirms Infective Endocarditis."
+  },
+  {
+    "id": "cardio_020",
+    "category": "Cardiology",
+    "title": "Dilated Cardiomyopathy Case Study 20",
+    "text": "Patient is a 62-year-old female presenting with Progressive dyspnea on exertion, fatigue, and orthopnea. Chest X-ray shows cardiomegaly. Beta-blockers and ACE inhibitors prescribed.. Blood pressure: 153/81 mmHg. Heart rate: 85 bpm. Diagnostic Workup confirms Dilated Cardiomyopathy."
+  },
+  {
+    "id": "cardio_021",
+    "category": "Cardiology",
+    "title": "Angina Pectoris Case Study 21",
+    "text": "Patient is a 65-year-old male presenting with Chest pressure radiating to left arm, precipitated by exertion and relieved by rest or nitroglycerin. ECG shows transient ST depressions.. Blood pressure: 160/85 mmHg. Heart rate: 90 bpm. Diagnostic Workup confirms Angina Pectoris."
+  },
+  {
+    "id": "cardio_022",
+    "category": "Cardiology",
+    "title": "Myocardial Infarction Case Study 22",
+    "text": "Patient is a 68-year-old female presenting with Crushing substernal chest pain radiating to neck and jaw, accompanied by diaphoresis and dyspnea. Troponin levels elevated. ST elevation on ECG.. Blood pressure: 167/89 mmHg. Heart rate: 95 bpm. Diagnostic Workup confirms Myocardial Infarction."
+  },
+  {
+    "id": "cardio_023",
+    "category": "Cardiology",
+    "title": "Atrial Fibrillation Case Study 23",
+    "text": "Patient is a 71-year-old male presenting with Palpitations, lightheadedness, and irregular pulse. ECG confirms irregularly irregular rhythm without P waves. Anticoagulation started.. Blood pressure: 124/93 mmHg. Heart rate: 100 bpm. Diagnostic Workup confirms Atrial Fibrillation."
+  },
+  {
+    "id": "cardio_024",
+    "category": "Cardiology",
+    "title": "Congestive Heart Failure Case Study 24",
+    "text": "Patient is a 74-year-old female presenting with Bilateral pitting pedal edema, orthopnea, paroxysmal nocturnal dyspnea, and jugular venous distention. Echocardiogram shows EF of 35%.. Blood pressure: 131/97 mmHg. Heart rate: 105 bpm. Diagnostic Workup confirms Congestive Heart Failure."
+  },
+  {
+    "id": "cardio_025",
+    "category": "Cardiology",
+    "title": "Essential Hypertension Case Study 25",
+    "text": "Patient is a 77-year-old male presenting with Asymptomatic elevation of blood pressure measured at 165/95 mmHg on three separate occasions. Advised lifestyle modifications and Lisinopril.. Blood pressure: 138/101 mmHg. Heart rate: 70 bpm. Diagnostic Workup confirms Essential Hypertension."
+  },
+  {
+    "id": "cardio_026",
+    "category": "Cardiology",
+    "title": "Aortic Stenosis Case Study 26",
+    "text": "Patient is a 80-year-old female presenting with Systolic crescendo-decrescendo murmur at the right upper sternal border. Symptom triad: dyspnea, angina, syncope. Valve replacement indicated.. Blood pressure: 145/80 mmHg. Heart rate: 75 bpm. Diagnostic Workup confirms Aortic Stenosis."
+  },
+  {
+    "id": "cardio_027",
+    "category": "Cardiology",
+    "title": "Mitral Valve Prolapse Case Study 27",
+    "text": "Patient is a 83-year-old male presenting with Midsystolic click followed by a late systolic murmur. Patient complains of atypical chest pain and palpitations. Reassured and monitored.. Blood pressure: 152/84 mmHg. Heart rate: 80 bpm. Diagnostic Workup confirms Mitral Valve Prolapse."
+  },
+  {
+    "id": "cardio_028",
+    "category": "Cardiology",
+    "title": "Pericarditis Case Study 28",
+    "text": "Patient is a 46-year-old female presenting with Sharp, pleuritic chest pain that improves upon sitting forward. Rub heard on auscultation. ECG shows diffuse concave ST elevations.. Blood pressure: 159/88 mmHg. Heart rate: 85 bpm. Diagnostic Workup confirms Pericarditis."
+  },
+  {
+    "id": "cardio_029",
+    "category": "Cardiology",
+    "title": "Infective Endocarditis Case Study 29",
+    "text": "Patient is a 49-year-old male presenting with Fever of unknown origin, new murmur, splenomegaly, Roth spots, Janeway lesions, and positive blood cultures. Long-term IV antibiotics started.. Blood pressure: 166/92 mmHg. Heart rate: 90 bpm. Diagnostic Workup confirms Infective Endocarditis."
+  },
+  {
+    "id": "cardio_030",
+    "category": "Cardiology",
+    "title": "Dilated Cardiomyopathy Case Study 30",
+    "text": "Patient is a 52-year-old female presenting with Progressive dyspnea on exertion, fatigue, and orthopnea. Chest X-ray shows cardiomegaly. Beta-blockers and ACE inhibitors prescribed.. Blood pressure: 123/96 mmHg. Heart rate: 95 bpm. Diagnostic Workup confirms Dilated Cardiomyopathy."
+  },
+  {
+    "id": "pulm_001",
+    "category": "Pulmonology",
+    "title": "Asthma Exacerbation Case Study 1",
+    "text": "Subject is a 30-year-old female presenting with Acute wheezing, shortness of breath, and dry cough. Peak expiratory flow rate reduced. Relieved by albuterol nebulizer.. Respiratory rate: 16 breaths/min. Oxygen saturation: 90%. Diagnostic evaluation leads to Asthma Exacerbation."
+  },
+  {
+    "id": "pulm_002",
+    "category": "Pulmonology",
+    "title": "Chronic Obstructive Pulmonary Disease Case Study 2",
+    "text": "Subject is a 34-year-old male presenting with Chronic productive cough and progressive dyspnea in a heavy smoker. Decreased breath sounds, prolonged expiration. Prescribed tiotropium.. Respiratory rate: 17 breaths/min. Oxygen saturation: 93%. Diagnostic evaluation leads to Chronic Obstructive Pulmonary Disease."
+  },
+  {
+    "id": "pulm_003",
+    "category": "Pulmonology",
+    "title": "Community-Acquired Pneumonia Case Study 3",
+    "text": "Subject is a 38-year-old female presenting with Fever, productive cough with rusty sputum, pleuritic chest pain. Chest X-ray shows lobar consolidation. Treated with Azithromycin.. Respiratory rate: 18 breaths/min. Oxygen saturation: 96%. Diagnostic evaluation leads to Community-Acquired Pneumonia."
+  },
+  {
+    "id": "pulm_004",
+    "category": "Pulmonology",
+    "title": "Pulmonary Embolism Case Study 4",
+    "text": "Subject is a 42-year-old male presenting with Sudden onset of pleuritic chest pain, dyspnea, tachypnea, and tachycardia. History of recent long flight. CT angiogram positive.. Respiratory rate: 19 breaths/min. Oxygen saturation: 99%. Diagnostic evaluation leads to Pulmonary Embolism."
+  },
+  {
+    "id": "pulm_005",
+    "category": "Pulmonology",
+    "title": "Spontaneous Pneumothorax Case Study 5",
+    "text": "Subject is a 46-year-old female presenting with Sudden unilateral sharp chest pain and dyspnea. Hyperresonance and absent breath sounds on affected side. Chest tube inserted.. Respiratory rate: 20 breaths/min. Oxygen saturation: 92%. Diagnostic evaluation leads to Spontaneous Pneumothorax."
+  },
+  {
+    "id": "pulm_006",
+    "category": "Pulmonology",
+    "title": "Acute Bronchitis Case Study 6",
+    "text": "Subject is a 50-year-old male presenting with Cough lasting 2 weeks, occasionally productive, with low-grade fever and chest soreness. Lungs clear to auscultation. Advised symptomatic care.. Respiratory rate: 21 breaths/min. Oxygen saturation: 95%. Diagnostic evaluation leads to Acute Bronchitis."
+  },
+  {
+    "id": "pulm_007",
+    "category": "Pulmonology",
+    "title": "Idiopathic Pulmonary Fibrosis Case Study 7",
+    "text": "Subject is a 54-year-old female presenting with Progressive exertional dyspnea and dry cough. High-resolution CT shows bibasilar reticular opacities and honeycombing.. Respiratory rate: 22 breaths/min. Oxygen saturation: 98%. Diagnostic evaluation leads to Idiopathic Pulmonary Fibrosis."
+  },
+  {
+    "id": "pulm_008",
+    "category": "Pulmonology",
+    "title": "Sleep Apnea Syndrome Case Study 8",
+    "text": "Subject is a 58-year-old male presenting with Daytime somnolence, loud snoring, and witnessed apneic episodes. Polysomnography reveals AHI of 25. Recommended CPAP therapy.. Respiratory rate: 23 breaths/min. Oxygen saturation: 91%. Diagnostic evaluation leads to Sleep Apnea Syndrome."
+  },
+  {
+    "id": "pulm_009",
+    "category": "Pulmonology",
+    "title": "Tuberculosis Case Study 9",
+    "text": "Subject is a 62-year-old female presenting with Chronic cough, night sweats, hemoptysis, and weight loss. Acid-fast bacilli smear positive. Initiated RIPE therapy regimen.. Respiratory rate: 16 breaths/min. Oxygen saturation: 94%. Diagnostic evaluation leads to Tuberculosis."
+  },
+  {
+    "id": "pulm_010",
+    "category": "Pulmonology",
+    "title": "Sarcoidosis Case Study 10",
+    "text": "Subject is a 66-year-old male presenting with Exertional dyspnea, dry cough, erythema nodosum. Chest X-ray shows bilateral hilar lymphadenopathy. Handled with corticosteroids.. Respiratory rate: 17 breaths/min. Oxygen saturation: 97%. Diagnostic evaluation leads to Sarcoidosis."
+  },
+  {
+    "id": "pulm_011",
+    "category": "Pulmonology",
+    "title": "Asthma Exacerbation Case Study 11",
+    "text": "Subject is a 70-year-old female presenting with Acute wheezing, shortness of breath, and dry cough. Peak expiratory flow rate reduced. Relieved by albuterol nebulizer.. Respiratory rate: 18 breaths/min. Oxygen saturation: 90%. Diagnostic evaluation leads to Asthma Exacerbation."
+  },
+  {
+    "id": "pulm_012",
+    "category": "Pulmonology",
+    "title": "Chronic Obstructive Pulmonary Disease Case Study 12",
+    "text": "Subject is a 74-year-old male presenting with Chronic productive cough and progressive dyspnea in a heavy smoker. Decreased breath sounds, prolonged expiration. Prescribed tiotropium.. Respiratory rate: 19 breaths/min. Oxygen saturation: 93%. Diagnostic evaluation leads to Chronic Obstructive Pulmonary Disease."
+  },
+  {
+    "id": "pulm_013",
+    "category": "Pulmonology",
+    "title": "Community-Acquired Pneumonia Case Study 13",
+    "text": "Subject is a 78-year-old female presenting with Fever, productive cough with rusty sputum, pleuritic chest pain. Chest X-ray shows lobar consolidation. Treated with Azithromycin.. Respiratory rate: 20 breaths/min. Oxygen saturation: 96%. Diagnostic evaluation leads to Community-Acquired Pneumonia."
+  },
+  {
+    "id": "pulm_014",
+    "category": "Pulmonology",
+    "title": "Pulmonary Embolism Case Study 14",
+    "text": "Subject is a 32-year-old male presenting with Sudden onset of pleuritic chest pain, dyspnea, tachypnea, and tachycardia. History of recent long flight. CT angiogram positive.. Respiratory rate: 21 breaths/min. Oxygen saturation: 99%. Diagnostic evaluation leads to Pulmonary Embolism."
+  },
+  {
+    "id": "pulm_015",
+    "category": "Pulmonology",
+    "title": "Spontaneous Pneumothorax Case Study 15",
+    "text": "Subject is a 36-year-old female presenting with Sudden unilateral sharp chest pain and dyspnea. Hyperresonance and absent breath sounds on affected side. Chest tube inserted.. Respiratory rate: 22 breaths/min. Oxygen saturation: 92%. Diagnostic evaluation leads to Spontaneous Pneumothorax."
+  },
+  {
+    "id": "pulm_016",
+    "category": "Pulmonology",
+    "title": "Acute Bronchitis Case Study 16",
+    "text": "Subject is a 40-year-old male presenting with Cough lasting 2 weeks, occasionally productive, with low-grade fever and chest soreness. Lungs clear to auscultation. Advised symptomatic care.. Respiratory rate: 23 breaths/min. Oxygen saturation: 95%. Diagnostic evaluation leads to Acute Bronchitis."
+  },
+  {
+    "id": "pulm_017",
+    "category": "Pulmonology",
+    "title": "Idiopathic Pulmonary Fibrosis Case Study 17",
+    "text": "Subject is a 44-year-old female presenting with Progressive exertional dyspnea and dry cough. High-resolution CT shows bibasilar reticular opacities and honeycombing.. Respiratory rate: 16 breaths/min. Oxygen saturation: 98%. Diagnostic evaluation leads to Idiopathic Pulmonary Fibrosis."
+  },
+  {
+    "id": "pulm_018",
+    "category": "Pulmonology",
+    "title": "Sleep Apnea Syndrome Case Study 18",
+    "text": "Subject is a 48-year-old male presenting with Daytime somnolence, loud snoring, and witnessed apneic episodes. Polysomnography reveals AHI of 25. Recommended CPAP therapy.. Respiratory rate: 17 breaths/min. Oxygen saturation: 91%. Diagnostic evaluation leads to Sleep Apnea Syndrome."
+  },
+  {
+    "id": "pulm_019",
+    "category": "Pulmonology",
+    "title": "Tuberculosis Case Study 19",
+    "text": "Subject is a 52-year-old female presenting with Chronic cough, night sweats, hemoptysis, and weight loss. Acid-fast bacilli smear positive. Initiated RIPE therapy regimen.. Respiratory rate: 18 breaths/min. Oxygen saturation: 94%. Diagnostic evaluation leads to Tuberculosis."
+  },
+  {
+    "id": "pulm_020",
+    "category": "Pulmonology",
+    "title": "Sarcoidosis Case Study 20",
+    "text": "Subject is a 56-year-old male presenting with Exertional dyspnea, dry cough, erythema nodosum. Chest X-ray shows bilateral hilar lymphadenopathy. Handled with corticosteroids.. Respiratory rate: 19 breaths/min. Oxygen saturation: 97%. Diagnostic evaluation leads to Sarcoidosis."
+  },
+  {
+    "id": "pulm_021",
+    "category": "Pulmonology",
+    "title": "Asthma Exacerbation Case Study 21",
+    "text": "Subject is a 60-year-old female presenting with Acute wheezing, shortness of breath, and dry cough. Peak expiratory flow rate reduced. Relieved by albuterol nebulizer.. Respiratory rate: 20 breaths/min. Oxygen saturation: 90%. Diagnostic evaluation leads to Asthma Exacerbation."
+  },
+  {
+    "id": "pulm_022",
+    "category": "Pulmonology",
+    "title": "Chronic Obstructive Pulmonary Disease Case Study 22",
+    "text": "Subject is a 64-year-old male presenting with Chronic productive cough and progressive dyspnea in a heavy smoker. Decreased breath sounds, prolonged expiration. Prescribed tiotropium.. Respiratory rate: 21 breaths/min. Oxygen saturation: 93%. Diagnostic evaluation leads to Chronic Obstructive Pulmonary Disease."
+  },
+  {
+    "id": "pulm_023",
+    "category": "Pulmonology",
+    "title": "Community-Acquired Pneumonia Case Study 23",
+    "text": "Subject is a 68-year-old female presenting with Fever, productive cough with rusty sputum, pleuritic chest pain. Chest X-ray shows lobar consolidation. Treated with Azithromycin.. Respiratory rate: 22 breaths/min. Oxygen saturation: 96%. Diagnostic evaluation leads to Community-Acquired Pneumonia."
+  },
+  {
+    "id": "pulm_024",
+    "category": "Pulmonology",
+    "title": "Pulmonary Embolism Case Study 24",
+    "text": "Subject is a 72-year-old male presenting with Sudden onset of pleuritic chest pain, dyspnea, tachypnea, and tachycardia. History of recent long flight. CT angiogram positive.. Respiratory rate: 23 breaths/min. Oxygen saturation: 99%. Diagnostic evaluation leads to Pulmonary Embolism."
+  },
+  {
+    "id": "pulm_025",
+    "category": "Pulmonology",
+    "title": "Spontaneous Pneumothorax Case Study 25",
+    "text": "Subject is a 76-year-old female presenting with Sudden unilateral sharp chest pain and dyspnea. Hyperresonance and absent breath sounds on affected side. Chest tube inserted.. Respiratory rate: 16 breaths/min. Oxygen saturation: 92%. Diagnostic evaluation leads to Spontaneous Pneumothorax."
+  },
+  {
+    "id": "pulm_026",
+    "category": "Pulmonology",
+    "title": "Acute Bronchitis Case Study 26",
+    "text": "Subject is a 30-year-old male presenting with Cough lasting 2 weeks, occasionally productive, with low-grade fever and chest soreness. Lungs clear to auscultation. Advised symptomatic care.. Respiratory rate: 17 breaths/min. Oxygen saturation: 95%. Diagnostic evaluation leads to Acute Bronchitis."
+  },
+  {
+    "id": "pulm_027",
+    "category": "Pulmonology",
+    "title": "Idiopathic Pulmonary Fibrosis Case Study 27",
+    "text": "Subject is a 34-year-old female presenting with Progressive exertional dyspnea and dry cough. High-resolution CT shows bibasilar reticular opacities and honeycombing.. Respiratory rate: 18 breaths/min. Oxygen saturation: 98%. Diagnostic evaluation leads to Idiopathic Pulmonary Fibrosis."
+  },
+  {
+    "id": "pulm_028",
+    "category": "Pulmonology",
+    "title": "Sleep Apnea Syndrome Case Study 28",
+    "text": "Subject is a 38-year-old male presenting with Daytime somnolence, loud snoring, and witnessed apneic episodes. Polysomnography reveals AHI of 25. Recommended CPAP therapy.. Respiratory rate: 19 breaths/min. Oxygen saturation: 91%. Diagnostic evaluation leads to Sleep Apnea Syndrome."
+  },
+  {
+    "id": "pulm_029",
+    "category": "Pulmonology",
+    "title": "Tuberculosis Case Study 29",
+    "text": "Subject is a 42-year-old female presenting with Chronic cough, night sweats, hemoptysis, and weight loss. Acid-fast bacilli smear positive. Initiated RIPE therapy regimen.. Respiratory rate: 20 breaths/min. Oxygen saturation: 94%. Diagnostic evaluation leads to Tuberculosis."
+  },
+  {
+    "id": "pulm_030",
+    "category": "Pulmonology",
+    "title": "Sarcoidosis Case Study 30",
+    "text": "Subject is a 46-year-old male presenting with Exertional dyspnea, dry cough, erythema nodosum. Chest X-ray shows bilateral hilar lymphadenopathy. Handled with corticosteroids.. Respiratory rate: 21 breaths/min. Oxygen saturation: 97%. Diagnostic evaluation leads to Sarcoidosis."
+  },
+  {
+    "id": "vertigo_001",
+    "category": "Vertigo",
+    "title": "Benign Paroxysmal Positional Vertigo (BPPV)",
+    "text": "Subject: Vertigo. Description: BPPV presents with brief episodes of vertigo (spinning sensation) associated with changes in head position. Diagnostic test: Dix-Hallpike maneuver eliciting geotropic nystagmus. Precaution profile: Avoid sudden head movements, sleep with head elevated on two pillows, avoid bending down to pick up items, and perform Epley maneuver under guidance."
+  },
+  {
+    "id": "synth_001",
+    "category": "Synthesized",
+    "title": "Foreign Body in Upper Aerodigestive Tract",
+    "text": "Subject: Foreign Body. Clinical scenario: Patient (often pediatric) presents with sudden onset of choking, dysphagia, or stridor. In ENT contexts, a foreign body (e.g., small toy, coin, or fishbone) may be lodged in the auditory canal, nasal cavity, or pharynx. Immediate examination and extraction using forceps or laryngoscopy is required. Complications include airway obstruction or perforation."
+  },
+  {
+    "id": "synth_002",
+    "category": "Synthesized",
+    "title": "Pediatric Croup (Laryngotracheobronchitis)",
+    "text": "Subject: Croup. Clinical scenario: A child aged 6 months to 3 years presents with a characteristic barking cough, inspiratory stridor, and hoarseness, typically preceded by coryza. Etiology: Parainfluenza virus. Severe cases show intercostal retractions. Treatment: Single dose of oral Dexamethasone, nebulized epinephrine for stridor at rest, and cool mist therapy."
+  },
+  {
+    "id": "synth_003",
+    "category": "Synthesized",
+    "title": "Allergic Rhinitis",
+    "text": "Subject: Allergic Rhinitis. Clinical scenario: Patient complains of seasonal or perennial sneezing, rhinorrhea, nasal congestion, and itchy, watery eyes. Pale, boggy turbinates. Driven by IgE-mediated response to allergens. Treatment includes second-generation oral antihistamines (e.g., Cetirizine), intranasal corticosteroids, and allergen avoidance."
+  }
+]

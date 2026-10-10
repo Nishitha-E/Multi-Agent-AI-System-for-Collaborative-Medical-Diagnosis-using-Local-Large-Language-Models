@@ -1,0 +1,28 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.rar
+*.zip
+*.7z
+
+# Environment configuration
+.env
+
+# Generated reports & temporary audio files
+frontend/reports/*.pdf
+frontend/reports/*.webm
+frontend/reports/*.wav
+!frontend/reports/.gitkeep
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
