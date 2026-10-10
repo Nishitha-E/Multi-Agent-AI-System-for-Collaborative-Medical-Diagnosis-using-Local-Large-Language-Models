@@ -143,8 +143,6 @@ Evaluation metrics:
 <img width="1917" height="965" alt="Screenshot 2026-10-10 210703" src="https://github.com/user-attachments/assets/2ef5eadd-9094-474c-9768-2a6fa2b333ef" />
 
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7d2c3ef9-0c29-4689-b05c-9824754d0251" />
-<img width="1907" height="967" alt="image" src="https://github.com/user-attachments/assets/70adc1e6-d361-4285-960c-20a22ed4523a" />
-
 ---
 ## Report
 [triage_report_2A5E3922.pdf](https://github.com/user-attachments/files/33285348/triage_report_2A5E3922.pdf)
