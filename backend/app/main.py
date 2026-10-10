@@ -1,6 +1,14 @@
 import os,json,asyncio
 from pydub import AudioSegment
 from contextlib import asynccontextmanager
+import sys, types
+try:
+    import numba
+except Exception:
+    if "numba" not in sys.modules:
+        _numba_mock = types.ModuleType("numba")
+        _numba_mock.jit = lambda *a, **k: (lambda f: f)
+        sys.modules["numba"] = _numba_mock
 import whisper
 from typing import List
 from fastapi import FastAPI,HTTPException,UploadFile,File
