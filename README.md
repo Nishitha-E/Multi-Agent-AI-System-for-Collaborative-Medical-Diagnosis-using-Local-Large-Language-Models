@@ -28,9 +28,35 @@ AEGIS is an offline-first, stateful multi-agent clinical decision-support and tr
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ System Architecture & Workflow Diagram
 
-![LangGraph Workflow](workflow_graph.png)
+### 🔄 Multi-Agent LangGraph Workflow
+
+```mermaid
+flowchart TD
+    Start([Start: Patient Complaint]) --> Evidence[1. Gather Evidence & ChromaDB Vector RAG]
+    Evidence --> Clinical[2. Clinical Reasoning Engine]
+    
+    subgraph Specialists [Clinical Specialist Nodes]
+        Clinical --> GP[General Physician Agent]
+        Clinical --> Cardio[Cardiologist]
+        Clinical --> Pulm[Pulmonologist]
+        Clinical --> ENT[ENT Specialist]
+        Clinical --> Ortho[Orthopedic Specialist]
+    end
+    
+    Specialists --> Emergency{3. Emergency Fast-Path Check}
+    Emergency -->|Emergency Flagged| Alert[Emergency Alert Trigger]
+    Emergency --> Pharmacist[4. Pharmacist Safety Agent / OTC Filter]
+    Pharmacist --> Consensus[5. Consensus Coordinator & Agreement Scoring]
+    Consensus --> Finalize[6. Confidence Scoring & Final Risk Level]
+    Alert --> Finalize
+    Finalize --> End([Output: SSE Stream & Triage PDF Report])
+```
+
+<div align="center">
+  <img src="workflow_graph.png" alt="Aegis Multi-Agent Workflow Diagram" width="700"/>
+</div>
 
 ```
 [Patient Speech / Text Input]
